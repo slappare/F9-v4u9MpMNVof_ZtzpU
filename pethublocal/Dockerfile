@@ -17,7 +17,7 @@ COPY rootfs /
 
 # Clone Code Repo
 WORKDIR /code
-RUN git clone https://github.com/PetHubLocal/pethublocal
+RUN git clone https://github.com/slappare/pethublocal
 
 # Install using PIP
 WORKDIR /code/pethublocal
